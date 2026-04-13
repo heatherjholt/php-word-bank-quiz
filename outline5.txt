@@ -1,0 +1,33 @@
+Outline
+    Title
+        - php knowledge decoder (The Matrix inspired style )
+
+    Questions
+        - numbered list of questions from json file 
+
+    Input
+        - type in form answers
+
+    Buttons
+        - submit answers 
+
+    Results Page
+        - questions listed with answers given compared to answers in json, feedback given red and green
+
+        Total Score
+            - calculated score 
+            - restart quiz button
+
+    Footer/Bottom of Page
+        - source list with link for more questions and name/date
+
+Reflection
+1.  The layout of what was needed did not change but I did end up moving around where the word bank was, 
+    I first put it on a navbar at the top right with a pop up dropdown list, but i didnt like that. 
+    I think the collapsing sidebar fits the style of the page better.
+2.  The hardest part to implement correctly was getting the input form box to show in place of the ____ in the questions.
+    I had to make sure to use the same amount of underscores for each json question so the loop would catch and replace them correctly. 
+    I wanted a clean setup of how the questions displayed with the fill in the blank at the beginning of every question.
+3.  One mistake I made was putting the logic for the word bank loop too far down. 
+    I couldnt get the list to show so I had to move it to the top of the file. 
+    Also, I didnt use shuffle so it was just showing the answers in order, but now every time it will shuffle them.

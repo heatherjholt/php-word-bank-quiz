@@ -1,0 +1,42 @@
+[
+  {
+    "question": "____ moves files in PHP when using the $_FILES superglobal.",
+    "answer": "move_uploaded_file()"
+  },
+  {
+    "question": "____ outputs data, can take multiple parameters, and has no return value.",
+    "answer": "echo"
+  },
+  {
+    "question": "____ allow data to be stored across multiple pages.",
+    "answer": "Sessions"
+  },
+    {
+    "question": "____ is used to initiate a session.",
+    "answer": "session_start()"
+  },
+  {
+    "question": "____ sends data via HTTP headers, no limit, more secure.",
+    "answer": "POST"
+  },
+  {
+    "question": "____ checks if a variable is set and is not NULL.",
+    "answer": "isset()"
+  },
+    {
+    "question": "____ outputs data, returns 1, and works like a function.",
+    "answer": "print"
+  },
+  {
+    "question": "____ compares values and data types.",
+    "answer": "==="
+  },
+  {
+    "question": "____ provide a way to group related classes, functions, and constants to avoid naming conflicts.",
+    "answer": "Namespaces"
+  },
+  {
+    "question": "____ destroys all data registered to a session and deletes the session itself.",
+    "answer": "session_destroy()"
+  }
+]
